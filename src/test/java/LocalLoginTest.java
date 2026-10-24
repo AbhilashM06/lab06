@@ -65,7 +65,7 @@ public class LocalLoginTest {
 
     @AfterMethod
     public void tearDown() {
-        if (driver != null) {
+     
         	try {
 				Thread.sleep(3000);
 			} catch (InterruptedException e) {
@@ -75,4 +75,3 @@ public class LocalLoginTest {
             driver.quit();
         }
     }
-}
